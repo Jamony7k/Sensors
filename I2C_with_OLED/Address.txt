@@ -1,0 +1,5 @@
+LM75 address is 0x48
+
+OLED address is 0x3C
+
+RGB detection address is 0x29
