@@ -45,11 +45,12 @@ Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS3472
 void setup() {
 
   tcs.begin();
+  display.clearDisplay();
 
   Serial.begin(9600);
 
   display.begin(SSD1306_SWITCHCAPVCC);
-  display.clearDisplay();
+  
   display.setTextColor(WHITE);
 }
 
